@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Search</title>
+</head>
+
+<body>
+
+    <div class="container" id="advheadcontainer">
+        <a href="./img.html">Image Search</a>
+        <a href="./index.html">Google Search</a>
+    </div>
+
+    <div class="header">
+        <img src="./assets/[CITYPNG.COM]White HD Google Logo - 2160x1597.png" alt="Google logo" id="advlogo"
+            class="logo">
+        <div class="appbar">
+            <label style="margin-left: 10px;" id="headlabel">Advanced Search</label>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="advcontainer" id="allcontainer">
+        <div class="container" id="advcontainer">
+            <h3 class="title" id="tit1">Find pages with... </h3>
+            <form action="https://www.google.com/search">
+                <div class="container" id="advinputcontainer">
+                    <div class="subadvcontainer">
+                        <label for="as_q">all these words: </label>
+                        <input type="text" name="as_q">
+                    </div>
+                    <div class="subadvcontainer">
+                        <label for="as_epq">this exact word or phrase: </label>
+                        <input type="text" name="as_epq">
+                    </div>
+                    <div class="subadvcontainer">
+                        <label for="as_oq">any of these words: </label>
+                        <input type="text" name="as_oq">
+                    </div>
+                    <div class="subadvcontainer">
+                        <label for="as_eq">none of these words</label>
+                        <input type="text" name="as_eq">
+                    </div>
+                </div>
+                <div class="btncontainer">
+                    <input type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+        <div class="container" id="description">
+            <h3 class="title" id="title2">To do this in the search box. </h3>
+            <div class="lilguide">
+                <p class="guide">Type the important words: <span>tri-colour rat terrier</span>
+                </p>
+            </div>
+            <div class="lilguide">
+                <p class="guide">Put exact words in quotes: <span>"rat terrier"</span>
+                </p>
+            </div>
+            <div class="lilguide">
+                <p class="guide">Type OR between all the words you want: <span>miniature OR standard</span>
+                </p>
+            </div>
+            <div class="lilguide">
+                <p class="guide">Put a minus sign just before the words that you don't want: <span>-rodent,
+                        -"Jack
+                        Russel"</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
